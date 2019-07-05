@@ -3,6 +3,7 @@ import 'package:pokemondex/getPokemonData.dart';
 import 'package:flutter/material.dart';
 import 'package:pokemondex/themes.dart';
 
+
 void main() {
   runApp(
     CustomTheme(
@@ -13,6 +14,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
